@@ -8,7 +8,7 @@ import './App.css';
 
 const App = () => {
     return (
-        <div className='app'>
+        <div className='app' >
             <div className='navbar'>
             <Navbar/>
             </div>
@@ -36,16 +36,16 @@ const App = () => {
                     </div>
                 </Layout>
             <div className='footer' >
-                <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-                    Crypto Assers < br/>
-                    All Rights reserverd
-                </Typography.Title>
-                <Space>
-                    <Link to='/'>Home</Link>
-                    <Link to='/exchanges'>Exchanges</Link>
-                    <Link to='/news'>News</Link>
-                </Space>
-            </div>
+                    <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
+                        Crypto Assers < br/>
+                        All Rights reserverd
+                    </Typography.Title>
+                    <Space>
+                        <Link to='/'>Home</Link>
+                        <Link to='/exchanges'>Exchanges</Link>
+                        <Link to='/news'>News</Link>
+                    </Space>
+                </div>
             </div>
         </div>
     )
