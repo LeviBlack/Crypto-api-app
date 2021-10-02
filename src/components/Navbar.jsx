@@ -1,14 +1,14 @@
 import React from 'react'
 import {Button, Menu, Typography, Avatar} from 'antd'
 import {Link} from 'react-router-dom'
-import {HomeOutlined, MoneyCollectOutlined, FundOutlined, MenuOutlined, BulbOutlined} from '@ant-design/icons'
+import {HomeOutlined, MoneyCollectOutlined, FundOutlined, MenuOutlined, BulbOutlined , PieChartOutlined } from '@ant-design/icons'
 
 import icon from '../images/redirect.png'
 
 const Navbar = () => {
     return (
-        <div className='Nav-container'>
-        <div className='Logo-container'>
+        <div className='nav-container'>
+        <div className='logo-container'>
         <Avatar src={icon} size='large'/>
         <Typography.Title level={2} className='logo'>
                 <Link to='/'>Crypto Assets</Link>
@@ -26,6 +26,9 @@ const Navbar = () => {
             </Menu.Item>
             <Menu.Item icon={<BulbOutlined />}>
                 <Link to='/news'>News</Link>
+            </Menu.Item>
+            <Menu.Item icon={<PieChartOutlined />}>
+                <Link to='/MyList'>My List</Link>
             </Menu.Item>
         </Menu>
         </div>

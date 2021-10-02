@@ -4,7 +4,7 @@
     --text-primary:#FFFFFF;
     --bgPrimary:#2C2F33;
    --bgSecondary: #2C2F33;
-   --pink: #7289DA;
+   --pink: #ffffff;
    --light-blue: #7289DA;
    --border: #23272A;
 }
@@ -55,6 +55,7 @@ a:hover{
 }
 .logo{
     margin:0 0 0 15px;
+    color: white;
 }
 .logo a{
    color: white;

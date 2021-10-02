@@ -3,7 +3,7 @@ import React from 'react';
 import{Switch, Route, Link} from 'react-router-dom';
 import {Layout, Typography, Space} from 'antd';
 
-import {Navbar, Exchanges, Cryptocurrencies, CryptoDetails, News, Homepage} from './components';
+import {Navbar, Exchanges, Cryptocurrencies, CryptoDetails, News, Homepage, MyList} from './components';
 import './App.css';
 
 const App = () => {
@@ -30,6 +30,9 @@ const App = () => {
                         </Route>
                         <Route exact path='/news'>
                             <News />
+                        </Route>
+                        <Route exact path='/myList'>
+                            <MyList />
                         </Route>
                     </Switch>
 
